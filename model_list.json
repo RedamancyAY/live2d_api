@@ -13,7 +13,8 @@
             "yuzusoft/nene",
             "yuzusoft/nanami",
             "yuzusoft/murasame"
-        ]
+        ],
+        "gal/ATRI"
     ],
     "messages": [
         "来自 Potion Maker 的 Pio 酱 ~",
@@ -22,6 +23,7 @@
         "来自 Bilibili Live 的 33 的说",
         "Shizuku Talk ！这里是 Shizuku ~",
         "艦隊これくしょん / 叢雲(むらくも)",
-        "Ciallo～(∠·ω< )⌒★  柚子社系列"
+        "Ciallo～(∠·ω< )⌒★  柚子社系列",
+        "Ciallo～(∠·ω< )⌒★  Galgame系列"
     ]
 }
