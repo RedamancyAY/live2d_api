@@ -1,0 +1,252 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "Bounds": {
+    "Width": 13.151288,
+    "Height": 17.6887321,
+    "CenterX": 0.485732138,
+    "CenterY": -1.44683838
+  },
+  "FileReferences": {
+    "Moc": "FileReferences_Moc_0.moc3",
+    "Textures": [
+      "FileReferences_Textures_0_0.png"
+    ],
+    "Physics": "FileReferences_Physics_0.json",
+    "PhysicsV2": {
+      "File": "FileReferences_Physics_0.json"
+    },
+    "Motions": {
+      "Idle": [
+        {
+          "File": "FileReferences_Motions_Idle_0_File_0.json"
+        }
+      ],
+      "Start": [
+        {
+          "File": "FileReferences_Motions_Start_0_File_0.json",
+          "Sound": "FileReferences_Motions_Start_0_Sound_0.wav",
+          "Text": "指挥官，你怎么又来了，啊，是来...视察的吗？"
+        }
+      ],
+      "Tap-日常": [
+        {
+          "File": "FileReferences_Motions_Tap-日常_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-日常_0_Sound_0.wav",
+          "Text": "指挥官，装病的话我可是会生气的哦？"
+        },
+        {
+          "File": "FileReferences_Motions_Tap-日常_1_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-日常_1_Sound_0.wav",
+          "Text": "指挥官，你不觉得这件衣服稍微有些小吗？唔唔，我穿的稍微有些不习惯呢..."
+        },
+        {
+          "File": "FileReferences_Motions_Tap-日常_2_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-日常_2_Sound_0.wav",
+          "Text": "指挥官，平时不注意作息健康是很容易得病的哦，就算是我，也不可能每时每刻在您身边呢"
+        }
+      ],
+      "Tap-邮件": [
+        {
+          "File": "FileReferences_Motions_Tap-邮件_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-邮件_0_Sound_0.wav",
+          "Text": "指挥官，这是你的邮件吧？我放在这里了哦。"
+        }
+      ],
+      "Tap-任务提醒": [
+        {
+          "File": "FileReferences_Motions_Tap-任务提醒_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-任务提醒_0_Sound_0.wav",
+          "Text": "指挥官，任务不做的话只会越来越多哦？"
+        }
+      ],
+      "Tap-任务奖励": [
+        {
+          "File": "FileReferences_Motions_Tap-任务奖励_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-任务奖励_0_Sound_0.wav",
+          "Text": "哇，任务奖励还不少呢，指挥官真厉害~"
+        }
+      ],
+      "Tap-回港": [
+        {
+          "File": "FileReferences_Motions_Tap-回港_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-回港_0_Sound_0.wav",
+          "Text": "指挥官，稍等一会哦，我先给这个孩子做个检查..."
+        }
+      ],
+      "Tap-正常触摸": [
+        {
+          "File": "FileReferences_Motions_Tap-正常触摸_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-正常触摸_0_Sound_0.wav",
+          "Text": "指挥官，来这边躺下吧，我先为您做一些检查"
+        }
+      ],
+      "Tap-特殊触摸": [
+        {
+          "File": "FileReferences_Motions_Tap-特殊触摸_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-特殊触摸_0_Sound_0.wav",
+          "Text": "指挥官...想当医生吗？"
+        }
+      ],
+      "Tap-誓约": [
+        {
+          "File": "FileReferences_Motions_Tap-誓约_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-誓约_0_Sound_0.wav",
+          "Text": "希望我永远留在身边？可以哦，照顾指挥官本来就是我的职责呢。……欸，难道说，这是告白吗？ ……嗯， 我的回答，依然是——yes哦。 从今往后，也请多多指教了，指挥官～\r"
+        }
+      ],
+      "Tap-摸头": [
+        {
+          "File": "FileReferences_Motions_Tap-摸头_0_File_0.json"
+        }
+      ],
+      "Tap-委托完成": [
+        {
+          "File": "FileReferences_Motions_Tap-委托完成_0_File_0.json",
+          "Sound": "FileReferences_Motions_Tap-委托完成_0_Sound_0.wav",
+          "Text": "指挥官，手边的工作先放一放，去迎接回来的委托组吧。"
+        }
+      ]
+    }
+  },
+  "Controllers": {
+    "ParamHit": {
+      "Items": [
+        {
+          "Axis": 0,
+          "Factor": 0.01,
+          "ReleaseType": 0
+        }
+      ],
+      "Enabled": true
+    },
+    "ParamLoop": {},
+    "KeyTrigger": {},
+    "ParamTrigger": {},
+    "AreaTrigger": {},
+    "HandTrigger": {},
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 10.0,
+      "Enabled": true
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Items": [
+        {
+          "Id": "ParamEyeBallX",
+          "Min": -1.0,
+          "Max": 1.0,
+          "DefaultValue": 0.0,
+          "BlendMode": 1,
+          "Input": 1
+        },
+        {
+          "Id": "ParamEyeBallY",
+          "Min": -1.0,
+          "Max": 1.0,
+          "DefaultValue": 0.0,
+          "BlendMode": 1,
+          "Axis": 1,
+          "Input": 2
+        }
+      ],
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {
+      "Enabled": true
+    },
+    "Accelerometer": {
+      "Enabled": true
+    },
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {
+      "Enabled": true
+    },
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "摸头",
+      "Id": "TouchHead",
+      "Motion": "Tap-摸头"
+    },
+    {
+      "Name": "日常",
+      "Id": "TouchBody",
+      "Order": 2,
+      "Motion": "Tap-日常"
+    },
+    {
+      "Name": "特殊",
+      "Id": "TouchSpecial",
+      "Order": 9,
+      "Motion": "Tap-特殊触摸"
+    },
+    {
+      "Name": "誓约",
+      "Id": "ArtMesh75",
+      "Order": 8,
+      "Motion": "Tap-誓约"
+    },
+    {
+      "Name": "邮件",
+      "Id": "ArtMesh101",
+      "Order": 7,
+      "Motion": "Tap-邮件"
+    },
+    {
+      "Name": "回港",
+      "Id": "ArtMesh149",
+      "Motion": "Tap-回港"
+    },
+    {
+      "Name": "任务奖励",
+      "Id": "ArtMesh152",
+      "Motion": "Tap-任务奖励"
+    },
+    {
+      "Name": "任务提醒",
+      "Id": "ArtMesh150",
+      "Motion": "Tap-任务提醒"
+    },
+    {
+      "Name": "正常一",
+      "Id": "ArtMesh48",
+      "Order": 6,
+      "Motion": "Tap-正常触摸"
+    },
+    {
+      "Name": "正常二",
+      "Id": "ArtMesh49",
+      "Order": 6,
+      "Motion": "Tap-正常触摸"
+    },
+    {
+      "Name": "委托完成",
+      "Id": "ArtMesh39",
+      "Order": 5,
+      "Motion": "Tap-委托完成"
+    }
+  ],
+  "Options": {
+    "ScaleFactor": 0.1,
+    "TexFixed": true
+  }
+}

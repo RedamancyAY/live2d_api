@@ -14,7 +14,8 @@
             "yuzusoft/nanami",
             "yuzusoft/murasame"
         ],
-        "gal/ATRI"
+        "gal/ATRI",
+        "hemin/white"    
     ],
     "messages": [
         "来自 Potion Maker 的 Pio 酱 ~",
@@ -24,6 +25,7 @@
         "Shizuku Talk ！这里是 Shizuku ~",
         "艦隊これくしょん / 叢雲(むらくも)",
         "Ciallo～(∠·ω< )⌒★  柚子社系列",
-        "Ciallo～(∠·ω< )⌒★  Galgame系列"
+        "Ciallo～(∠·ω< )⌒★  Galgame系列",
+        "碧蓝航线 赫敏 温柔的纯白天使-无背景版"
     ]
 }
